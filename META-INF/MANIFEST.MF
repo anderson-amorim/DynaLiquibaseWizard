@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LiquibaseWizard
+Bundle-SymbolicName: LiquibaseWizard;singleton:=true
+Bundle-Version: 1.2.4
+Bundle-Activator: liquibasewizard.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.ui.ide
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Dynamix
+Bundle-ClassPath: libs/ojdbc14.jar,
+ .
